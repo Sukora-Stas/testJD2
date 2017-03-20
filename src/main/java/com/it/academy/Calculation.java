@@ -9,4 +9,9 @@ public class Calculation {
     public int multiply(int x, int y) {
         return x * y;
     }
+
+
+    public double addToPower (double x, double y){
+        return (int) Math.pow(x, y);
+    }
 }
