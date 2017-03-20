@@ -1,7 +1,5 @@
 package com.it.academy;
 
-import com.sun.org.apache.xpath.internal.SourceTree;
-
 public class Calculation {
 
     public int addition(int first, int second) {
@@ -36,6 +34,44 @@ public class Calculation {
         return var;
     }
 
-
-
+    public void stringPrint(){
+        System.out.print("Some stupid text");
+        System.out.print("Some stupid text");
+        System.out.print("Some stupid text");
+        System.out.print("Some stupid text");
+        System.out.print("Some stupid text");
+        System.out.print("Some stupid text");
+        System.out.print("Some stupid text");
+        System.out.print("Some stupid text");
+        System.out.print("Some stupid text");
+        System.out.print("Some stupid text");
+        System.out.print("Some stupid text");
+        System.out.print("Some stupid text");
+        System.out.print("Some stupid text");
+        System.out.print("Some stupid text");
+        System.out.print("Some stupid text");
+        System.out.print("Some stupid text");
+        System.out.print("Some stupid text");
+        System.out.print("Some stupid text");
+        System.out.print("Some stupid text");
+        System.out.print("Some stupid text");
+        System.out.print("Some stupid text");
+        System.out.print("Some stupid text");
+        System.out.print("Some stupid text");
+        System.out.print("Some stupid text");
+        System.out.print("Some stupid text");
+        System.out.print("Some stupid text");
+        System.out.print("Some stupid text");
+        System.out.print("Some stupid text");
+        System.out.print("Some stupid text");
+        System.out.print("Some stupid text");
+        System.out.print("Some stupid text");
+        System.out.print("Some stupid text");
+        System.out.print("Some stupid text");
+        System.out.print("Some stupid text");
+        System.out.print("Some stupid text");
+        System.out.print("Some stupid text");
+        System.out.print("Some stupid text");
+        System.out.print("Some stupid text");
+    }
 }
