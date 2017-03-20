@@ -10,6 +10,7 @@ public class Calculation {
         return x * y;
     }
 
+
     public double addToPower (double x, double y){
         return (int) Math.pow(x, y);
     }
