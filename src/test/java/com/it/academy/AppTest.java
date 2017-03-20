@@ -1,21 +1,38 @@
 package com.it.academy;
 
+import junit.framework.Test;
 import junit.framework.TestCase;
-import org.junit.Test;
+import junit.framework.TestSuite;
 
 /**
  * Unit test for simple App.
  */
-public class AppTest
-        extends TestCase {
+public class AppTest 
+    extends TestCase
+{
+    /**
+     * Create the test case
+     *
+     * @param testName name of the test case
+     */
+    public AppTest( String testName )
+    {
+        super( testName );
+    }
 
-    @Test
-    public void additionTest(){
+    /**
+     * @return the suite of tests being tested
+     */
+    public static Test suite()
+    {
+        return new TestSuite( AppTest.class );
+    }
 
-        Calculation calc = new Calculation();
-
-        assertEquals("must be 10",10,calc.addition(5,5));
-
-
+    /**
+     * Rigourous Test :-)
+     */
+    public void testApp()
+    {
+        assertTrue( true );
     }
 }
