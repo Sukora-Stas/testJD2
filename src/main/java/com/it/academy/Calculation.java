@@ -1,6 +1,5 @@
 package com.it.academy;
 
-import com.sun.org.apache.xpath.internal.SourceTree;
 
 public class Calculation {
 
@@ -36,13 +35,12 @@ public class Calculation {
         return var;
     }
 
-    public void stringPrint(){
+    public void stringPrint() {
         System.out.print("принт-принт");
     }
 
 
-
-    public void stringPrintSaidanov(){
+    public void stringPrintSaidanov() {
         System.out.print("Some stupid text");
         System.out.print("Some stupid text");
         System.out.print("Some stupid text");
