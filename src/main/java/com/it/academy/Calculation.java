@@ -30,7 +30,7 @@ public class Calculation {
         double var = 0;
         try {
             var = first / second;
-        } catch (ArithmeticException arEx) {
+        } catch (Exception ex) {
             System.out.println("Недопустимая операция");
         }
         return var;
