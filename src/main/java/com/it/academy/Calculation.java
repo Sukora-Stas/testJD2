@@ -2,11 +2,8 @@ package com.it.academy;
 
 public class Calculation {
 
-    public void addition(int first, int second){
-
-        if(){
-
-        }
+    public int addition(int first, int second){
+        return first + second;
     }
 
     public int multiply(int x, int y) {
