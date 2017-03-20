@@ -8,7 +8,7 @@ import static org.junit.Assert.assertEquals;
 /**
  * Unit test for simple App.
  */
-public class AppTest{
+public class AppTest {
 
     @Test
     public void additionTest() {
