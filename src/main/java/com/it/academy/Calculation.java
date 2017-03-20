@@ -9,10 +9,12 @@ public class Calculation {
     }
 
     public double dev(double first, double second) {
+        double var = 0;
         try {
-            return first / second;
+            var = first / second;
         } catch (ArithmeticException arEx) {
             System.out.println("Недопустимая операция");
         }
+        return var;
     }
 }
