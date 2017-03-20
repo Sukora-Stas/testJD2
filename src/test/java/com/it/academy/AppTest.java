@@ -10,7 +10,7 @@ import junit.framework.TestSuite;
 public class AppTest
         extends TestCase {
 
-
+    @Test
     public void additionTest(){
 
 
