@@ -1,6 +1,6 @@
 package com.it.academy;
 
-import org.junit.Assert;
+import junit.framework.TestCase;
 import org.junit.Test;
 
 import static org.junit.Assert.assertEquals;
@@ -8,22 +8,22 @@ import static org.junit.Assert.assertEquals;
 /**
  * Unit test for simple App.
  */
-public class AppTest{
+public class AppTest {
+
+    Calculation calc = new Calculation();
 
     @Test
-    public void additionTest() {
+    public void additionTest(){
 
-        Calculation calc = new Calculation();
+        assertEquals("must be 10",10,calc.addition(5,5));
 
-        assertEquals("must be 10", 10, calc.addition(5, 5));
 
     }
 
     @Test
-    public void multiplyMethodTest(){
-        Calculation calculation = new Calculation();
-        int x = calculation.multiply(5, 6);
-        Assert.assertEquals(30, x);
-    }
+    public void addToPowerTest () {
+        int result = (int) calc.addToPower(2, 5);
+        assertEquals(32, result);
 
+    }
 }
