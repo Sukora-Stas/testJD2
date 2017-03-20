@@ -14,7 +14,7 @@ public class AppTest {
     public void additionTest() {
 
         Calculation calc = new Calculation();
-
+//comment
         assertEquals("must be 10", 10, calc.addition(5, 5));
 
     }
@@ -25,4 +25,11 @@ public class AppTest {
         assertEquals("", 95, calc.substraction(100, 5));
     }
 
+    @Test
+    public void addToPowerTest() {
+        Calculation calc = new Calculation();
+        int result = (int) calc.addToPower(2, 5);
+        assertEquals(32, result);
+
+    }
 }
