@@ -1,4 +1,4 @@
-
+misc.xml
 .idea
 *.iml
 .checkstyle
@@ -24,7 +24,4 @@ out-test/
 # virtual machine crash logs
 hs_err_pid*
 
-.gitignore
-.idea/workspace.xml
-.idea/modules.xml
 testWebApp.iml
