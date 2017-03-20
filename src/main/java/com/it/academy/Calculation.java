@@ -2,7 +2,10 @@ package com.it.academy;
 
 public class Calculation {
 
-    public void add(int first, int second){
+    public void addition(int first, int second){
 
+        if(){
+
+        }
     }
 }
