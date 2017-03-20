@@ -12,11 +12,8 @@ public class AppTest {
 
     @Test
     public void additionTest() {
-
         Calculation calc = new Calculation();
-
         assertEquals("must be 10", 10, calc.addition(5, 5));
-
     }
 
     @Test
