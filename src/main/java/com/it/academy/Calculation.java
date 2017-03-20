@@ -9,8 +9,8 @@ public class Calculation {
 
     }
 
-    public int multiply(int x, int y) {
-        return x * y;
+    public int multiply(int first, int second) {
+        return first * second;
     }
 
     public int substraction(Integer a, Integer b) {
@@ -35,5 +35,7 @@ public class Calculation {
         }
         return var;
     }
+
+
 
 }
