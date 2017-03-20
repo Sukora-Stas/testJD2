@@ -36,6 +36,10 @@ public class Calculation {
         return var;
     }
 
+    public void stringPrint(){
+        System.out.print("принт-принт");
+    }
+
 
 
 }

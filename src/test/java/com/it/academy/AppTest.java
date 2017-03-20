@@ -10,20 +10,19 @@ import static org.junit.Assert.assertEquals;
  */
 public class AppTest {
 
-    Calculation calc = new Calculation();
-
     @Test
-    public void additionTest(){
+    public void additionTest() {
 
-        assertEquals("must be 10",10,calc.addition(5,5));
+        Calculation calc = new Calculation();
 
+        assertEquals("must be 10", 10, calc.addition(5, 5));
 
     }
 
     @Test
-    public void addToPowerTest () {
-        int result = (int) calc.addToPower(2, 5);
-        assertEquals(32, result);
-
+    public void subtractionTest() {
+        Calculation calc = new Calculation();
+        assertEquals("", 95, calc.substraction(100, 5));
     }
+
 }
