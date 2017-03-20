@@ -1,4 +1,4 @@
-package com.it-academy;
+package com.it.academy-academy;
 
 import junit.framework.Test;
 import junit.framework.TestCase;
