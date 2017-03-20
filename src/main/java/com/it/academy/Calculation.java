@@ -1,7 +1,5 @@
 package com.it.academy;
 
-import com.sun.org.apache.xpath.internal.SourceTree;
-
 public class Calculation {
 
     public int addition(int first, int second) {
@@ -36,10 +34,10 @@ public class Calculation {
         return var;
     }
 
-    public void stringPrint(){
-        System.out.print("принт-принт");
+    public String stringPrint() {
+        System.out.println("принт-принт");
+        return "print-print";
     }
-
 
 
 }
