@@ -16,6 +16,10 @@ public class App {
         System.out.println(a);
         String str = calc.stringPrint();
         System.out.println(str);
+
+        System.out.println("----------------------------");
+        System.out.println("Кароче пацаны, предлага. оставитть эту хрень, и тут дебажить всякие фичи..так сказать совместное что ли бо тестить!\n" +
+                "вообщем отпишите тут ниже, кто что думает");
     }
 
 }
