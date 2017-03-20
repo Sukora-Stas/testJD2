@@ -1,6 +1,6 @@
 package com.it.academy;
 
-import junit.framework.TestCase;
+import org.junit.Assert;
 import org.junit.Test;
 
 import static org.junit.Assert.assertEquals;
@@ -17,6 +17,13 @@ public class AppTest{
 
         assertEquals("must be 10", 10, calc.addition(5, 5));
 
+    }
+
+    @Test
+    public void multiplyMethodTest(){
+        Calculation calculation = new Calculation();
+        int x = calculation.multiply(5, 6);
+        Assert.assertEquals(30, x);
     }
 
 }
